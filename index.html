@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div><h1>Calculator</h1></div>
+    <div class="maincontainer">
+        <div class="screens-container">
+            <div class='miniscreen' id="miniscreen"></div>
+            <div class="screen" id="screen"></div>
+        </div>
+       
+        <div class="clearing"><button id="clearing" onclick="clearing()">C</button></div>
+        <div class="zero"><button id="zero" onclick="add('0')">0</button></div>
+        <div class="one"><button id="one" onclick="add('1')">1</button></div>
+        <div class="two"><button id="two" onclick="add('2')">2</button></div>
+        <div class="three"><button id="three" onclick="add('3')">3</button></div>
+        <div class="four"><button id="four" onclick="add('4')">4</button></div>
+        <div class="five"><button id="five" onclick="add('5')">5</button></div>
+        <div class="six"><button id="six" onclick="add('6')">6</button></div>
+        <div class="seven"><button id="seven" onclick="add('7')">7</button></div>
+        <div class="eight"><button id="eight" onclick="add('8')">8</button></div>
+        <div class="nine"><button id="nine" onclick="add('9')">9</button></div>
+        <div class="dot"><button id="dot" onclick="add('.')">.</button></div>
+        <div class="plus"><button id="plus" onclick="add('+')">+</button></div>
+        <div class="minus"><button id="minus" onclick="add('-')">-</button></div>
+        <div class="multiplication"><button id="multiplication" onclick="add('*')">*</button></div>
+        <div class="division"><button id="division" onclick="add('/')">/</button></div>
+        <div class="equals"><button id="equals" onclick="calculateAll()">=</button></div>
+    </div>
+
+</body>
+
+</html>
